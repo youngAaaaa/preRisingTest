@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63396ADF28A3AFE100CD7058 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63396ADE28A3AFE100CD7058 /* TabViewController.swift */; };
+		63396AE128A3B02900CD7058 /* HospitalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63396AE028A3B02900CD7058 /* HospitalInfoViewController.swift */; };
+		63396AE428A3B49A00CD7058 /* MedicalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63396AE328A3B49A00CD7058 /* MedicalInfoViewController.swift */; };
+		63396AE628A3B4C600CD7058 /* DoctorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63396AE528A3B4C600CD7058 /* DoctorInfoViewController.swift */; };
+		63396AE828A3B50200CD7058 /* FacilityInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63396AE728A3B50200CD7058 /* FacilityInfoViewController.swift */; };
+		63396AEA28A3B53700CD7058 /* NearbyPharmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63396AE928A3B53700CD7058 /* NearbyPharmViewController.swift */; };
+		63396AEC28A3DEE600CD7058 /* MainInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63396AEB28A3DEE600CD7058 /* MainInfoViewController.swift */; };
+		6374B48328A2589F0056664B /* searchHospitalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374B48228A2589F0056664B /* searchHospitalResponse.swift */; };
+		6374B48728A258F80056664B /* SearchHospitalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374B48628A258F80056664B /* SearchHospitalDataManager.swift */; };
+		6374B48A28A2596E0056664B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374B48928A2596E0056664B /* Constant.swift */; };
+		63A1B0CA28A0CC120045749D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1B0C928A0CC120045749D /* AppDelegate.swift */; };
+		63A1B0CC28A0CC120045749D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1B0CB28A0CC120045749D /* SceneDelegate.swift */; };
+		63A1B0CE28A0CC120045749D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1B0CD28A0CC120045749D /* ViewController.swift */; };
+		63A1B0D128A0CC120045749D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A1B0CF28A0CC120045749D /* Main.storyboard */; };
+		63A1B0D328A0CC130045749D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A1B0D228A0CC130045749D /* Assets.xcassets */; };
+		63A1B0D628A0CC130045749D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A1B0D428A0CC130045749D /* LaunchScreen.storyboard */; };
+		63ADCC3C28A138B2005FA673 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADCC3B28A138B2005FA673 /* UIViewController.swift */; };
+		63ADCC3E28A14164005FA673 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADCC3D28A14164005FA673 /* UITextField.swift */; };
+		63ADCC4028A15530005FA673 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADCC3F28A15530005FA673 /* BannerCell.swift */; };
+		63ADCC4328A16384005FA673 /* searchHospitalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADCC4128A16384005FA673 /* searchHospitalTableViewCell.swift */; };
+		63ADCC4428A16384005FA673 /* searchHospitalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63ADCC4228A16384005FA673 /* searchHospitalTableViewCell.xib */; };
+		63ADCC4628A16A26005FA673 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADCC4528A16A26005FA673 /* SearchViewController.swift */; };
+		BCEF6F78180D2A7F33CDE8C7 /* Pods_RisingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993FD7A24250A48D08502663 /* Pods_RisingTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487B98DA5D6B4C435E67CD30 /* Pods-RisingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingTest.debug.xcconfig"; path = "Target Support Files/Pods-RisingTest/Pods-RisingTest.debug.xcconfig"; sourceTree = "<group>"; };
+		63396ADE28A3AFE100CD7058 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		63396AE028A3B02900CD7058 /* HospitalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalInfoViewController.swift; sourceTree = "<group>"; };
+		63396AE328A3B49A00CD7058 /* MedicalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalInfoViewController.swift; sourceTree = "<group>"; };
+		63396AE528A3B4C600CD7058 /* DoctorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorInfoViewController.swift; sourceTree = "<group>"; };
+		63396AE728A3B50200CD7058 /* FacilityInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityInfoViewController.swift; sourceTree = "<group>"; };
+		63396AE928A3B53700CD7058 /* NearbyPharmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPharmViewController.swift; sourceTree = "<group>"; };
+		63396AEB28A3DEE600CD7058 /* MainInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoViewController.swift; sourceTree = "<group>"; };
+		6374B48228A2589F0056664B /* searchHospitalResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchHospitalResponse.swift; sourceTree = "<group>"; };
+		6374B48628A258F80056664B /* SearchHospitalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHospitalDataManager.swift; sourceTree = "<group>"; };
+		6374B48928A2596E0056664B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		63A1B0C628A0CC120045749D /* RisingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RisingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A1B0C928A0CC120045749D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63A1B0CB28A0CC120045749D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63A1B0CD28A0CC120045749D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63A1B0D028A0CC120045749D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63A1B0D228A0CC130045749D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63A1B0D528A0CC130045749D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63A1B0D728A0CC130045749D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63ADCC3B28A138B2005FA673 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		63ADCC3D28A14164005FA673 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		63ADCC3F28A15530005FA673 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		63ADCC4128A16384005FA673 /* searchHospitalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchHospitalTableViewCell.swift; sourceTree = "<group>"; };
+		63ADCC4228A16384005FA673 /* searchHospitalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchHospitalTableViewCell.xib; sourceTree = "<group>"; };
+		63ADCC4528A16A26005FA673 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6A08A4207B791150C1909148 /* Pods-RisingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingTest.release.xcconfig"; path = "Target Support Files/Pods-RisingTest/Pods-RisingTest.release.xcconfig"; sourceTree = "<group>"; };
+		993FD7A24250A48D08502663 /* Pods_RisingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A1B0C328A0CC120045749D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF6F78180D2A7F33CDE8C7 /* Pods_RisingTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FB955132CC5D4DFBE81953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				487B98DA5D6B4C435E67CD30 /* Pods-RisingTest.debug.xcconfig */,
+				6A08A4207B791150C1909148 /* Pods-RisingTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		63008E5528A43289006AFBBF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6374B48028A2587E0056664B /* Network */,
+				63396AE228A3B44700CD7058 /* 탭바뷰컨 */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		63396AE228A3B44700CD7058 /* 탭바뷰컨 */ = {
+			isa = PBXGroup;
+			children = (
+				63396AE028A3B02900CD7058 /* HospitalInfoViewController.swift */,
+				63396AE328A3B49A00CD7058 /* MedicalInfoViewController.swift */,
+				63396AE528A3B4C600CD7058 /* DoctorInfoViewController.swift */,
+				63396AE728A3B50200CD7058 /* FacilityInfoViewController.swift */,
+				63396AE928A3B53700CD7058 /* NearbyPharmViewController.swift */,
+			);
+			name = "탭바뷰컨";
+			path = "탭바뷰컨";
+			sourceTree = "<group>";
+		};
+		6374B48028A2587E0056664B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6374B48628A258F80056664B /* SearchHospitalDataManager.swift */,
+				6374B48128A2588A0056664B /* Entity */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6374B48128A2588A0056664B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				6374B48228A2589F0056664B /* searchHospitalResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6374B48828A2593F0056664B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6374B48928A2596E0056664B /* Constant.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		63A1B0BD28A0CC120045749D = {
+			isa = PBXGroup;
+			children = (
+				63A1B0C828A0CC120045749D /* RisingTest */,
+				63A1B0C728A0CC120045749D /* Products */,
+				07FB955132CC5D4DFBE81953 /* Pods */,
+				7D2F1779055B67CF55F3E5DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63A1B0C728A0CC120045749D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A1B0C628A0CC120045749D /* RisingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A1B0C828A0CC120045749D /* RisingTest */ = {
+			isa = PBXGroup;
+			children = (
+				6374B48828A2593F0056664B /* Configuration */,
+				63ADCC3928A13884005FA673 /* Util */,
+				63008E5528A43289006AFBBF /* Main */,
+				63A1B0CD28A0CC120045749D /* ViewController.swift */,
+				63ADCC4528A16A26005FA673 /* SearchViewController.swift */,
+				63396AEB28A3DEE600CD7058 /* MainInfoViewController.swift */,
+				63396ADE28A3AFE100CD7058 /* TabViewController.swift */,
+				63ADCC3F28A15530005FA673 /* BannerCell.swift */,
+				63ADCC4128A16384005FA673 /* searchHospitalTableViewCell.swift */,
+				63ADCC4228A16384005FA673 /* searchHospitalTableViewCell.xib */,
+				63A1B0CF28A0CC120045749D /* Main.storyboard */,
+				63A1B0C928A0CC120045749D /* AppDelegate.swift */,
+				63A1B0CB28A0CC120045749D /* SceneDelegate.swift */,
+				63A1B0D228A0CC130045749D /* Assets.xcassets */,
+				63A1B0D428A0CC130045749D /* LaunchScreen.storyboard */,
+				63A1B0D728A0CC130045749D /* Info.plist */,
+			);
+			path = RisingTest;
+			sourceTree = "<group>";
+		};
+		63ADCC3928A13884005FA673 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				63ADCC3A28A1389F005FA673 /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		63ADCC3A28A1389F005FA673 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				63ADCC3B28A138B2005FA673 /* UIViewController.swift */,
+				63ADCC3D28A14164005FA673 /* UITextField.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7D2F1779055B67CF55F3E5DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				993FD7A24250A48D08502663 /* Pods_RisingTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A1B0C528A0CC120045749D /* RisingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A1B0DA28A0CC130045749D /* Build configuration list for PBXNativeTarget "RisingTest" */;
+			buildPhases = (
+				1CD43FE47917C6AA2EC46A0E /* [CP] Check Pods Manifest.lock */,
+				63A1B0C228A0CC120045749D /* Sources */,
+				63A1B0C328A0CC120045749D /* Frameworks */,
+				63A1B0C428A0CC120045749D /* Resources */,
+				A470DFBAC6921E01EB89CD7E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RisingTest;
+			productName = RisingTest;
+			productReference = 63A1B0C628A0CC120045749D /* RisingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A1B0BE28A0CC120045749D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63A1B0C528A0CC120045749D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 63A1B0C128A0CC120045749D /* Build configuration list for PBXProject "RisingTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A1B0BD28A0CC120045749D;
+			productRefGroup = 63A1B0C728A0CC120045749D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A1B0C528A0CC120045749D /* RisingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A1B0C428A0CC120045749D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A1B0D628A0CC130045749D /* LaunchScreen.storyboard in Resources */,
+				63ADCC4428A16384005FA673 /* searchHospitalTableViewCell.xib in Resources */,
+				63A1B0D328A0CC130045749D /* Assets.xcassets in Resources */,
+				63A1B0D128A0CC120045749D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD43FE47917C6AA2EC46A0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RisingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A470DFBAC6921E01EB89CD7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RisingTest/Pods-RisingTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RisingTest/Pods-RisingTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RisingTest/Pods-RisingTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A1B0C228A0CC120045749D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63396AE428A3B49A00CD7058 /* MedicalInfoViewController.swift in Sources */,
+				63396ADF28A3AFE100CD7058 /* TabViewController.swift in Sources */,
+				63A1B0CE28A0CC120045749D /* ViewController.swift in Sources */,
+				63ADCC3E28A14164005FA673 /* UITextField.swift in Sources */,
+				63396AEC28A3DEE600CD7058 /* MainInfoViewController.swift in Sources */,
+				63396AEA28A3B53700CD7058 /* NearbyPharmViewController.swift in Sources */,
+				63ADCC4628A16A26005FA673 /* SearchViewController.swift in Sources */,
+				63ADCC4328A16384005FA673 /* searchHospitalTableViewCell.swift in Sources */,
+				63396AE828A3B50200CD7058 /* FacilityInfoViewController.swift in Sources */,
+				63A1B0CA28A0CC120045749D /* AppDelegate.swift in Sources */,
+				63396AE628A3B4C600CD7058 /* DoctorInfoViewController.swift in Sources */,
+				63ADCC3C28A138B2005FA673 /* UIViewController.swift in Sources */,
+				63A1B0CC28A0CC120045749D /* SceneDelegate.swift in Sources */,
+				6374B48328A2589F0056664B /* searchHospitalResponse.swift in Sources */,
+				6374B48A28A2596E0056664B /* Constant.swift in Sources */,
+				63396AE128A3B02900CD7058 /* HospitalInfoViewController.swift in Sources */,
+				63ADCC4028A15530005FA673 /* BannerCell.swift in Sources */,
+				6374B48728A258F80056664B /* SearchHospitalDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63A1B0CF28A0CC120045749D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A1B0D028A0CC120045749D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63A1B0D428A0CC130045749D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A1B0D528A0CC130045749D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63A1B0D828A0CC130045749D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63A1B0D928A0CC130045749D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A1B0DB28A0CC130045749D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487B98DA5D6B4C435E67CD30 /* Pods-RisingTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD3Z2H8T5S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RisingTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxday.RisingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63A1B0DC28A0CC130045749D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A08A4207B791150C1909148 /* Pods-RisingTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD3Z2H8T5S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RisingTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxday.RisingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A1B0C128A0CC120045749D /* Build configuration list for PBXProject "RisingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A1B0D828A0CC130045749D /* Debug */,
+				63A1B0D928A0CC130045749D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A1B0DA28A0CC130045749D /* Build configuration list for PBXNativeTarget "RisingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A1B0DB28A0CC130045749D /* Debug */,
+				63A1B0DC28A0CC130045749D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63A1B0BE28A0CC120045749D /* Project object */;
+}
