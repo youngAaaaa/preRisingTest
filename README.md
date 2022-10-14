@@ -1,15 +1,23 @@
 # preRisingTest
 > '똑닥'APP  
 > 프로젝트 기간 : 22.08.08 ~ 22.08.10 (3일)
-<ul>
-<img src="https://user-images.githubusercontent.com/97266875/195805293-630f9b2a-5a7d-4927-8509-e22c78b9e5fe.png" width="280" alt="sample">
-<img src="https://user-images.githubusercontent.com/97266875/195805405-9475f7ff-6303-4b6e-bf00-fcab1b5e2ce4.png" width="280" alt="sample">
-<img src="https://user-images.githubusercontent.com/97266875/195805304-aa94c315-08f6-458f-b302-6fb40554cb47.png" width="280" alt="sample">
-</ul>
 
+<img width="1200" alt="이미지 1" src="https://user-images.githubusercontent.com/97266875/195839203-65ecf353-3790-4f97-9e44-256fa3a69479.png">
 
-<video src="https://user-images.githubusercontent.com/97266875/195805308-506923ed-1ead-4598-93de-2916825e48f9.mov" data-canonical-src="https://user-images.githubusercontent.com/97266875/195805308-506923ed-1ead-4598-93de-2916825e48f9.mov" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"></video>
+https://user-images.githubusercontent.com/97266875/195839025-41c87559-876e-4e42-a416-cb6b9fcc2db4.mov
 - 과제 구현 범위
   - 하단 탭 레이아웃 구현 ✅
   - 하단 탭을 눌렀을때 가운데 화면이 바뀌는 기능 구현하되, 레이아웃은 **검색만** 구성 ✅
       - 검색의 모든 UI 요소 구현 (이미지 슬라이드 포함) ✅
+
+https://user-images.githubusercontent.com/97266875/195838936-ed0b6804-b89a-4943-b002-fe3577b8cea8.mov
+- 과제 구현 범위
+  - 위 화면은 홈의 검색창 → 검색어 입력 후 엔터를 눌렀을 때 나오는 화면입니다.  **화면 전환 및 데이터전달**도 구현해주세요. ✅
+  - **데이터 (내용)은 적합한 오픈 API를 엮어서 표현** ✅
+
+https://user-images.githubusercontent.com/97266875/195839369-72bf9e93-e421-432d-b519-273c71b7955c.mp4
+- 과제 구현 범위
+  - **위 화면은 위 리스트 중 하나를 눌렀을 때 이동**하는 상세 정보 화면입니다. **화면 전환과 데이터 전달**도 구현해주세요. ✅
+  - 병원정보/진료정보/의사정보/시설 정보 탭 레이아웃 구현 (탭마다의 화면은 **병원 정보만** 구현하시면 됩니다.) ✅
+  - **병원 정보 탭의 모든 화면**을 다 구현해주시면 됩니다. ✅
+  - 병원 정보 데이터는 유사한 병원 관련 **오픈 API 엮기** (’똑닥'앱의 데이터와 일치하지 않아도 됩니다.) ✅
