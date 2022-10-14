@@ -2,9 +2,9 @@
 > '똑닥'APP  
 > 프로젝트 기간 : 22.08.08 ~ 22.08.10 (3일)
 <ul>
-<img src="https://user-images.githubusercontent.com/97266875/195805293-630f9b2a-5a7d-4927-8509-e22c78b9e5fe.png" width="310" alt="sample">
-<img src="https://user-images.githubusercontent.com/97266875/195805405-9475f7ff-6303-4b6e-bf00-fcab1b5e2ce4.png" width="310" alt="sample">
-<img src="https://user-images.githubusercontent.com/97266875/195805304-aa94c315-08f6-458f-b302-6fb40554cb47.png" width="310" alt="sample">
+<img src="https://user-images.githubusercontent.com/97266875/195805293-630f9b2a-5a7d-4927-8509-e22c78b9e5fe.png" width="280" alt="sample">
+<img src="https://user-images.githubusercontent.com/97266875/195805405-9475f7ff-6303-4b6e-bf00-fcab1b5e2ce4.png" width="280" alt="sample">
+<img src="https://user-images.githubusercontent.com/97266875/195805304-aa94c315-08f6-458f-b302-6fb40554cb47.png" width="280" alt="sample">
 </ul>
 
 
