@@ -86,13 +86,13 @@
 		63008E5528A43289006AFBBF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				6386A3FE28F957C100FF6B59 /* View */,
 				6374B48028A2587E0056664B /* Network */,
-				63396AE228A3B44700CD7058 /* 탭바뷰컨 */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		63396AE228A3B44700CD7058 /* 탭바뷰컨 */ = {
+		63396AE228A3B44700CD7058 /* PagerViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				63396AE028A3B02900CD7058 /* HospitalInfoViewController.swift */,
@@ -101,7 +101,7 @@
 				63396AE728A3B50200CD7058 /* FacilityInfoViewController.swift */,
 				63396AE928A3B53700CD7058 /* NearbyPharmViewController.swift */,
 			);
-			name = "탭바뷰컨";
+			name = PagerViewControllers;
 			path = "탭바뷰컨";
 			sourceTree = "<group>";
 		};
@@ -128,6 +128,14 @@
 				6374B48928A2596E0056664B /* Constant.swift */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		6386A3FE28F957C100FF6B59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63396AE228A3B44700CD7058 /* PagerViewControllers */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		63A1B0BD28A0CC120045749D = {

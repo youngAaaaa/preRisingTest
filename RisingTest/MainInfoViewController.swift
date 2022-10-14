@@ -22,6 +22,7 @@ class MainInfoViewController: UIViewController {
     @IBOutlet weak var examPart: UILabel!
     
     @IBAction func tapBackButton(_ sender: UIButton) {
+        tabBarController?.tabBar.isHidden = false
         self.navigationController?.popViewController(animated: true)
     }
     

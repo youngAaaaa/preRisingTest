@@ -68,7 +68,7 @@ class ViewController: UIViewController {
     }
     
     func bannerTimer() {
-        let _: Timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { (Timer) in
+        let _: Timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { (Timer) in
             self.bannerMove()
         }
     }
